@@ -1,5 +1,7 @@
 # Ascii Art with FSharp and Fable.io
-                                      
+
+![screen](https://github.com/rflechner/AsciiPhoto/blob/master/AsciiPhoto/documentation/screen1.gif)
+
 ```
                            
              |°            
