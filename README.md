@@ -37,3 +37,19 @@
                    °                  
                                       
 ```
+
+# To build and run
+
+Read [fable documentation](http://fable.io/pages/getting-started.html)
+
+And run
+
+```
+> dotnet restore
+> yarn install
+> cd AsciiPhoto\src
+> dotnet fable yarn-run start
+```
+
+
+
