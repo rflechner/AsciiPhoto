@@ -73,7 +73,7 @@ let getDctBlocks (ctx :Browser.CanvasRenderingContext2D) c =
 let invertBrightness b = 
   match 255 - b with
   | v when v < 0 -> 0
-  | v -> abs v
+  | v -> v
 
 let render w h (averages: PixelBrightnessAverage list) (letters:LettersMapping) (renderColumn:RenderPixel) (onNewLine:unit->unit) =
   for y in 0. .. blockSizeF .. h-1. do
